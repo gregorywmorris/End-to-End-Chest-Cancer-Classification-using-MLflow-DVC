@@ -17,6 +17,7 @@ dependencies = [
     "dvc>=3.51.2",
     "pandas>=2.2.2",
     "ipykernel>=6.29.5",
+    "toml>=0.10.2",
 ]
 requires-python = "==3.11.*"
 readme = "README.md"
