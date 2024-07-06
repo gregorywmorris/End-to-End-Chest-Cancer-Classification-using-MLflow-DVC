@@ -17,7 +17,7 @@ dependencies = [
     "dvc>=3.51.2",
     "pandas>=2.2.2",
     "ipykernel>=6.29.5",
-    "toml>=0.10.2",
+    "dagshub>=0.3.29",
 ]
 requires-python = "==3.11.*"
 readme = "README.md"
@@ -30,3 +30,8 @@ Homepage = "https://github.com/entbappy/Chest-Cancer-Classification-Project"
 [tool.pdm]
 distribution = false
 package-dir = "src"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "toml>=0.10.2",
+]
