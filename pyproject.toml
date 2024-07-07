@@ -3,8 +3,7 @@ name = "cnnClassifier"
 version = "0.0.0"
 description = "A small python package for CNN app"
 authors = [
-    {name = "gregorywmorris", email = "gwm1980@gmail.com"},
-    {name = "entbappy", email = "entbappy73@gmail.com"},
+    {name = "gregorywmorris", email = "gwm1980@gmail.com"}
 ]
 dependencies = [
     "cdown>=0.1.0",
@@ -29,10 +28,10 @@ requires-python = "==3.11.*"
 readme = "README.md"
 license = {text = "MIT"}
 
-
 [project.urls]
-Homepage = "https://github.com/entbappy/Chest-Cancer-Classification-Project"
-"Bug Tracker" = "https://github.com/entbappy/Chest-Cancer-Classification-Project/issues"
+homepage = "https://github.com/entbappy/Chest-Cancer-Classification-Project"
+bug-tracker = "https://github.com/entbappy/Chest-Cancer-Classification-Project/issues"
+
 [tool.pdm]
 distribution = false
 package-dir = "src"
