@@ -46,7 +46,15 @@ export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9353c5b10041d5c8edbcef0
 
 ```
 
+```python
+import dagshub
+dagshub.init(repo_owner='gregorywmorris', repo_name='End-to-End-Chest-Cancer-Classification-using-MLflow-DVC', mlflow=True)
 
+import mlflow
+with mlflow.start_run():
+  mlflow.log_param('parameter name', 'value')
+  mlflow.log_metric('metric name', 1)
+```
 
 ### DVC cmd
 
