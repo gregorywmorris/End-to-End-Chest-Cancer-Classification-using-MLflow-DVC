@@ -29,8 +29,8 @@ readme = "README.md"
 license = {text = "MIT"}
 
 [project.urls]
-homepage = "https://github.com/entbappy/Chest-Cancer-Classification-Project"
-bug-tracker = "https://github.com/entbappy/Chest-Cancer-Classification-Project/issues"
+homepage = "https://github.com/gregorywmorris/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC"
+bug-tracker = "https://github.com/gregorywmorris/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC/pulls"
 
 [tool.pdm]
 distribution = false
