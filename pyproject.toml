@@ -23,6 +23,7 @@ dependencies = [
     "types-PyYAML>=6.0.12.20240311",
     "Flask-Cors>=4.0.1",
     "scipy>=1.14.0",
+    "joblib>=1.4.2",
 ]
 requires-python = "==3.11.*"
 readme = "README.md"
@@ -39,4 +40,5 @@ package-dir = "src"
 [tool.pdm.dev-dependencies]
 dev = [
     "toml>=0.10.2",
+    "gdown>=5.2.0",
 ]

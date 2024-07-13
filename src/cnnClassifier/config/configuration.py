@@ -33,7 +33,7 @@ class ConfigurationManager:
         )
 
         return data_ingestion_config
-    
+
 
     def get_prepare_base_model_config(self) -> PrepareBaseModelConfig:
         config = self.config.prepare_base_model
@@ -76,8 +76,6 @@ class ConfigurationManager:
         )
 
         return training_config
-    
-
 
 
     def get_evaluation_config(self) -> EvaluationConfig:
@@ -90,5 +88,3 @@ class ConfigurationManager:
             params_batch_size=self.params.BATCH_SIZE
         )
         return eval_config
-
-      

@@ -17,7 +17,7 @@ except Exception as e:
     raise e
 
 STAGE_NAME = "Prepare base model"
-try: 
+try:
     logger.info("*******************")
     logger.info(">>>>>> stage %s started <<<<<<", STAGE_NAME)
     prepare_base_model = PrepareBaseModelTrainingPipeline()
@@ -28,7 +28,7 @@ except Exception as e:
     raise e
 
 STAGE_NAME = "Training"
-try: 
+try:
     logger.info("*******************")
     logger.info(">>>>>> stage %s started <<<<<<", STAGE_NAME)
     model_trainer = ModelTrainingPipeline()
