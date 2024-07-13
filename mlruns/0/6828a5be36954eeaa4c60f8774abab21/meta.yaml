@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blackitalian/ds_projects/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC/mlruns/0/6828a5be36954eeaa4c60f8774abab21/artifacts
+end_time: 1720876658375
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6828a5be36954eeaa4c60f8774abab21
+run_name: vaunted-mare-731
+run_uuid: 6828a5be36954eeaa4c60f8774abab21
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720876653263
+status: 3
+tags: []
+user_id: blackitalian

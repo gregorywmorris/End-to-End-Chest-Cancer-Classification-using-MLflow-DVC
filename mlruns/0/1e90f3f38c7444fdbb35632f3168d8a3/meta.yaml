@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blackitalian/ds_projects/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC/mlruns/0/1e90f3f38c7444fdbb35632f3168d8a3/artifacts
+end_time: 1720876763610
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1e90f3f38c7444fdbb35632f3168d8a3
+run_name: shivering-doe-902
+run_uuid: 1e90f3f38c7444fdbb35632f3168d8a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720876758668
+status: 3
+tags: []
+user_id: blackitalian
