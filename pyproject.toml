@@ -24,6 +24,7 @@ dependencies = [
     "Flask-Cors>=4.0.1",
     "scipy>=1.14.0",
     "joblib>=1.4.2",
+    "mlflow>=2.14.3",
 ]
 requires-python = "==3.11.*"
 readme = "README.md"
